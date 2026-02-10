@@ -27,4 +27,12 @@ name = name.title()
 print(f"hello,{name}")
   this will output  hello name(function ka input )
   here f is used to give a hint to the ide or computer that we have treat the {} as a special function
-  
+
+  run the code with this prompt on the terminal :"python .\basics.py"
+
+
+float functions 
+round(x+y)
+              will help to round the float value up to 2 digits 
+  round (x+y,2)
+             will give 2 decimal points as the answer
