@@ -1,12 +1,8 @@
-x = float(input("What's the value of x? "))
-y = float(input("What's the value of y? "))
-z = round(x + y,2)
-print("The value of z is ",+float(z))
+def main():
+    x = int(input("whats value of x? "))
+    square = x*x
+    print("x squared is " + str(square))
 
+main()
 
-a= float(input("What's the value of a? "))
-b= float(input("What's the value of b? "))  
-
-z = round(a/b)
-print("The value of z is ",+float(z))
 
