@@ -39,4 +39,44 @@ elif score >=60 and score < 70:
     print ("you got a D") 
 else :
     print ("you got a F")
+
+5) 
+name = input(   "what is your name?")
+
+if name == "harry" or name == "hermione" or name == "ron":
+    print("Gryffindor")
+elif name == "Draco":
+    print("Slytherin")
+else:
+    print("who?")
     
+6)  match : Think of it like a smarter version of if-elif-else, but instead of just checking conditions, it can match the structure and content of data like lists, dictionaries, or objects. 
+
+
+name = input("What is your name? ")
+
+match name:
+    case "Harry":
+        print("gryffindor  ")
+    case "hermione":
+        print("gryffindor  ")
+    case "ron":
+        print("gryffindor  ")
+    case "draco":
+        print("slytherin  ")
+    case _:
+        print("who")
+        
+2nd alternative 
+
+name = input("What is your name? ")
+
+match name:
+    case "Harry" | "hermione" | "ron":
+        print("gryffindor  ")
+    
+ 
+    case "draco":
+        print("slytherin  ")
+    case _:
+        print("who")
