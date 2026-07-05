@@ -56,3 +56,4 @@ Again print a space
 Print Cherry
 Since the last print() uses the default end="\n", the cursor finally moves to the next line.
 
+3) pattern 10 is an important one 

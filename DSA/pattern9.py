@@ -16,8 +16,9 @@ class Solution:
             # Print trailing spaces
             for j in range(N - i - 1):
                 print(" ", end="")
+            print()  # Move to next row
            
-
+        for i in range(N):
              #for lending space 
             for j in range(i):
               print(" ", end="")
