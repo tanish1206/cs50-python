@@ -1,8 +1,8 @@
 class Solution:
 
-    def pattern14(self,N):
+    def pattern15(self,N):
     #outer rows
-     for i in range(N):
+     for i in range(N,-1,-1):
       
       for j in range (i+1):
         print(chr(65+j), end=" ")
@@ -11,6 +11,6 @@ class Solution:
     
 sol = Solution()
 N = 5# Set the size of the square (5x5)
-sol.pattern14(N)  # Call the function to print the pattern
+sol.pattern15(N)  # Call the function to print the pattern
 
 
