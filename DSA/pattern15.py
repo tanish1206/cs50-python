@@ -2,7 +2,7 @@ class Solution:
 
     def pattern15(self,N):
     #outer rows
-     for i in range(N,-1,-1):
+     for i in range(4,-1,-1):
       
       for j in range (i+1):
         print(chr(65+j), end=" ")
