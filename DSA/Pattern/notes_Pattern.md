@@ -57,3 +57,5 @@ Print Cherry
 Since the last print() uses the default end="\n", the cursor finally moves to the next line.
 
 3) pattern 10 is an important one 
+
+4) pattern 17 is imp one
