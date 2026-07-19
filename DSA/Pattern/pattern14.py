@@ -14,3 +14,5 @@ N = 5# Set the size of the square (5x5)
 sol.pattern14(N)  # Call the function to print the pattern
 
 
+
+
